@@ -1,0 +1,16 @@
+$color :orangered;
+
+div{
+    color: $color;
+    ul{
+        list-style: circle;
+
+        li{
+            font-size: 20px;
+
+            ol li{
+                font-size: 30px;
+            }
+        }
+    }
+}

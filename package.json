@@ -1,0 +1,16 @@
+{
+  "name": "html-and-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass variables.scss variables.css -w",
+    "nest:sass":"sass nesting.scss nesting.css -w",
+    "inherit:sass":"sass inheritance.scss inheritance.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.58.0"
+  }
+}

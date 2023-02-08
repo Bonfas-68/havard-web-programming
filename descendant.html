@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Descendant Styling</title>
+    <style>
+        ul  li{
+            /* ul > li show immediate children */
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <ol>
+        <li>List Item one</li>
+        <li>List Item  two
+            <ul>
+                <li>Sibling Item one</li>
+                <li>Sibling Item two</li>
+            </ul>
+        
+        </li>
+        <li>List Item three</li>
+    </ol>
+</body>
+</html>
